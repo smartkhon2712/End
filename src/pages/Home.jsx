@@ -5,9 +5,9 @@ import Main from "../components/Home/Main";
 function Home() {
   return (
     <>
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }

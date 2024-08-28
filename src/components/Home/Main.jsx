@@ -1,10 +1,23 @@
+import BannerImg from "../../assets/images/banner-image.png";
+import GoogleImg from "../../assets/images/google.svg";
+import MicrosoftImg from "../../assets/images/microsoft.svg";
+import AirbnbImg from "../../assets/images/airbnb.svg";
+import FacebookImg from "../../assets/images/facebook.svg";
+import SpotifyImg from "../../assets/images/spotify.svg";
+import FirstImg from "../../assets/images/first-image.png";
+import SecondImg from "../../assets/images/second-image.png";
+import PegLeggeImg from "../../assets/images/Peg-Legge.png";
+import RichardGuerraImg from "../../assets/images/Richard-Guerra.png";
+import AlexandraStolzImg from "../../assets/images/Alexandra-Stolz.png";
+import JanetBrayImg from "../../assets/images/Janet-Bray.png";
+
 function Main() {
   return (
     <main>
       <section class="px-[20px] bg-green pb-[40px] xl:pb-[80px]">
         <div class="xl:w-[1180px] xl:mx-auto flex flex-col xl:flex-row-reverse xl:gap-[130px] xl:items-center">
           <img
-            src="./images/banner-image.png"
+            src={BannerImg}
             alt="banner-image"
             class="mx-auto mb-[30px] xl:mb-[0px]"
           />
@@ -43,18 +56,18 @@ function Main() {
             </p>
           </div>
           <div class="py-[55px] flex flex-col xl:flex-row gap-[40px] xl:gap-[66px] items-center">
-            <img src="./images/google.svg" alt="google" />
-            <img src="./images/microsoft.svg" alt="microsoft" />
-            <img src="./images/airbnb.svg" alt="airbnb" />
-            <img src="./images/facebook.svg" alt="facebook" />
-            <img src="./images/spotify.svg" alt="spotify" />
+            <img src={GoogleImg} alt="google" />
+            <img src={MicrosoftImg} alt="microsoft" />
+            <img src={AirbnbImg} alt="airbnb" />
+            <img src={FacebookImg} alt="facebook" />
+            <img src={SpotifyImg} alt="spotify" />
           </div>
           <button class="bg-dark text-white mx-auto block p-[12px_48px] text-[20px] rounded-[5px]">
             Learn More
           </button>
         </div>
         <div class="pb-[60px] xl:pb-[80px] xl:max-w-[1180px] xl:mx-auto flex flex-col xl:flex-row xl:justify-between xl:items-center">
-          <img src="./images/first-image.png" alt="first-image" />
+          <img src={FirstImg} alt="first-image" />
           <div class="xl:w-[470px] flex flex-col gap-[20px] xl:gap-[16px] mt-[30px]">
             <h2 class="text-[24px] xl:text-[40px] Crimson-Text">
               Lorem ipsum dolor sit amet consectetur
@@ -72,7 +85,7 @@ function Main() {
           </div>
         </div>
         <div class="pb-[40px] xl:pb-[100px] xl:max-w-[1180px] xl:mx-auto flex flex-col xl:flex-row-reverse xl:justify-between xl:items-center">
-          <img src="./images/second-image.png" alt="second-image" />
+          <img src={SecondImg} alt="second-image" />
           <div class="xl:w-[470px] flex flex-col gap-[16px] mt-[30px]">
             <h2 class="text-[24px] xl:text-[40px] Crimson-Text">
               Lorem ipsum dolor sit amet consectetur
@@ -102,14 +115,14 @@ function Main() {
           </div>
           <div class="flex flex-col gap-[35px] xl:flex-row xl:gap-[47px] items-center mb-[45px]">
             <div class="w-[280px] py-[20px] flex flex-col items-center shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] rounded-[5px]">
-              <img src="./images/Peg-Legge.png" alt="Peg-Legge" />
+              <img src={PegLeggeImg} alt="Peg-Legge" />
               <div class="w-[200px] mt-[19px] text-left">
                 <h3 class="text-[24px] Crimson-Text mb-[17px]">Peg Legge</h3>
                 <div class="text=light-dark">CEO</div>
               </div>
             </div>
             <div class="w-[280px] py-[20px] flex flex-col items-center shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] rounded-[5px]">
-              <img src="./images/Richard-Guerra.png" alt="Richard-Guerra" />
+              <img src={RichardGuerraImg} alt="Richard-Guerra" />
               <div class="w-[200px] mt-[19px] text-left">
                 <h3 class="text-[24px] Crimson-Text mb-[17px]">
                   Richard Guerra
@@ -118,7 +131,7 @@ function Main() {
               </div>
             </div>
             <div class="w-[280px] py-[20px] flex flex-col items-center shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] rounded-[5px]">
-              <img src="./images/Alexandra-Stolz.png" alt="Alexandra-Stolz" />
+              <img src={AlexandraStolzImg} alt="Alexandra-Stolz" />
               <div class="w-[200px] mt-[19px] text-left">
                 <h3 class="text-[24px] Crimson-Text mb-[17px]">
                   Alexandra Stolz
@@ -127,7 +140,7 @@ function Main() {
               </div>
             </div>
             <div class="w-[280px] py-[20px] flex flex-col items-center shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] rounded-[5px]">
-              <img src="./images/Janet-Bray.png" alt="Janet-Bray" />
+              <img src={JanetBrayImg} alt="Janet-Bray" />
               <div class="w-[200px] mt-[19px] text-left">
                 <h3 class="text-[24px] Crimson-Text mb-[17px]">Janet Bray</h3>
                 <div class="text=light-dark">DEVELOPER</div>
