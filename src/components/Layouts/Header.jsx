@@ -1,4 +1,4 @@
-import Navbar from "../Layouts/Navbar";
+import Navbar from "./Navbar";
 import LogoImg from "../../assets/images/web-logo.svg";
 import MenuImg from "../../assets/images/menu-logo.svg";
 
