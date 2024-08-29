@@ -18,38 +18,22 @@ function OurTalents() {
         </p>
       </div>
       <div class="flex flex-col gap-[35px] xl:flex-row xl:gap-[47px] items-center mb-[45px]">
-        <TeamMembers />
-        <TeamMembers />
-        <TeamMembers />
-        <TeamMembers />
-        {/* <div class="w-[280px] py-[20px] flex flex-col items-center shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] rounded-[5px]">
-          <img src={PegLeggeImg} alt="Peg-Legge" />
-          <div class="w-[200px] mt-[19px] text-left">
-            <h3 class="text-[24px] Crimson-Text mb-[17px]">Peg Legge</h3>
-            <div class="text=light-dark">CEO</div>
-          </div>
-        </div>
-        <div class="w-[280px] py-[20px] flex flex-col items-center shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] rounded-[5px]">
-          <img src={RichardGuerraImg} alt="Richard-Guerra" />
-          <div class="w-[200px] mt-[19px] text-left">
-            <h3 class="text-[24px] Crimson-Text mb-[17px]">Richard Guerra</h3>
-            <div class="text=light-dark">CTO</div>
-          </div>
-        </div>
-        <div class="w-[280px] py-[20px] flex flex-col items-center shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] rounded-[5px]">
-          <img src={AlexandraStolzImg} alt="Alexandra-Stolz" />
-          <div class="w-[200px] mt-[19px] text-left">
-            <h3 class="text-[24px] Crimson-Text mb-[17px]">Alexandra Stolz</h3>
-            <div class="text=light-dark">DESIGNER</div>
-          </div>
-        </div>
-        <div class="w-[280px] py-[20px] flex flex-col items-center shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] rounded-[5px]">
-          <img src={JanetBrayImg} alt="Janet-Bray" />
-          <div class="w-[200px] mt-[19px] text-left">
-            <h3 class="text-[24px] Crimson-Text mb-[17px]">Janet Bray</h3>
-            <div class="text=light-dark">DEVELOPER</div>
-          </div>
-        </div> */}
+        <TeamMembers name="Peg Legge" position="CEO" imgSrc={PegLeggeImg} />
+        <TeamMembers
+          name="Richard Guerra"
+          position="CTO"
+          imgSrc={RichardGuerraImg}
+        />
+        <TeamMembers
+          name="Alexandra Stolz"
+          position="DESIGNER"
+          imgSrc={AlexandraStolzImg}
+        />
+        <TeamMembers
+          name="Janet Bray"
+          position="DEVELOPER"
+          imgSrc={JanetBrayImg}
+        />
       </div>
       <div class="flex justify-center">
         <button class="bg-dark text-white p-[12px_34px] text-[20px] rounded-[5px]">
