@@ -3,6 +3,7 @@ import RichardGuerraImg from "../../assets/images/Richard-Guerra.png";
 import AlexandraStolzImg from "../../assets/images/Alexandra-Stolz.png";
 import JanetBrayImg from "../../assets/images/Janet-Bray.png";
 import TeamMembers from "./TeamMembers";
+import { Link } from "react-router-dom";
 
 function OurTalents() {
   return (
@@ -36,9 +37,11 @@ function OurTalents() {
         />
       </div>
       <div className="flex justify-center">
-        <button className="bg-dark text-white p-[12px_34px] text-[20px] rounded-[5px]">
-          View Team
-        </button>
+        <Link to="/contact">
+          <button className="bg-dark text-white p-[12px_34px] text-[20px] rounded-[5px]">
+            View Team
+          </button>
+        </Link>
       </div>
     </div>
   );

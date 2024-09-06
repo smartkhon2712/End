@@ -1,18 +1,12 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="hidden xl:flex gap-[30px] text-[20px] text-white">
-      <a href="#" target="_blank">
-        Home
-      </a>
-      <a href="Portfolio.html" target="_blank">
-        Portfolio
-      </a>
-      <a href="Services.html" target="_blank">
-        Services
-      </a>
-      <a href="Contact.html" target="_blank">
-        Contact
-      </a>
+      <Link to="/">Home</Link>
+      <Link to="/portfolio">Portfolio</Link>
+      <Link to="/services">Services</Link>
+      <Link to="/contact">Contact</Link>
     </nav>
   );
 }

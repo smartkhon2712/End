@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import FirstImg from "../../assets/images/first-image.png";
 import SecondImg from "../../assets/images/second-image.png";
 
@@ -16,9 +17,11 @@ function Services() {
             voluptate culpa nesciunt delectus iste?
           </p>
           <div>
-            <button className="bg-dark text-white p-[12px_30px] text-[20px] rounded-[5px]">
-              Learn More
-            </button>
+            <Link to="/services">
+              <button className="bg-dark text-white p-[12px_30px] text-[20px] rounded-[5px]">
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
       </div>
