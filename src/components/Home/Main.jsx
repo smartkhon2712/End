@@ -7,7 +7,7 @@ function Main() {
   return (
     <main>
       <Banner />
-      <div class="px-[20px]">
+      <div className="px-[20px]">
         <Partners />
         <Services />
         <OurTalents />

@@ -6,27 +6,27 @@ import SpotifyImg from "../../assets/images/spotify.svg";
 
 function Partners() {
   return (
-    <div class="p-[20px_0px_60px] xl:p-[60px_0px_80px] xl:max-w-[1160px] xl:mx-auto">
-      <div class="flex flex-col gap-[16px] items-center">
-        <h3 class="text-green text-[16px] font-[700] tracking-[5px] uppercase">
+    <div className="p-[20px_0px_60px] xl:p-[60px_0px_80px] xl:max-w-[1160px] xl:mx-auto">
+      <div className="flex flex-col gap-[16px] items-center">
+        <h3 className="text-green text-[16px] font-[700] tracking-[5px] uppercase">
           partners
         </h3>
-        <h2 class="text-[24px] xl:text-[40px] Crimson-Text">
+        <h2 className="text-[24px] xl:text-[40px] Crimson-Text">
           Lorem Ipsum Dolor
         </h2>
-        <p class="text-[20px] text-center">
+        <p className="text-[20px] text-center">
           Lorem ipsum, dolor sit amet consectetur <br />
           adipisicing elit.
         </p>
       </div>
-      <div class="py-[55px] flex flex-col xl:flex-row gap-[40px] xl:gap-[66px] items-center">
+      <div className="py-[55px] flex flex-col xl:flex-row gap-[40px] xl:gap-[66px] items-center">
         <img src={GoogleImg} alt="google" />
         <img src={MicrosoftImg} alt="microsoft" />
         <img src={AirbnbImg} alt="airbnb" />
         <img src={FacebookImg} alt="facebook" />
         <img src={SpotifyImg} alt="spotify" />
       </div>
-      <button class="bg-dark text-white mx-auto block p-[12px_48px] text-[20px] rounded-[5px]">
+      <button className="bg-dark text-white mx-auto block p-[12px_48px] text-[20px] rounded-[5px]">
         Learn More
       </button>
     </div>

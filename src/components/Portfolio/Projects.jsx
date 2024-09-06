@@ -11,7 +11,7 @@ import ProjectItem from "./ProjectItem";
 function Projects() {
   return (
     <>
-      <div class="flex flex-col xl:flex-row xl:flex-wrap gap-[55px]">
+      <div className="flex flex-col xl:flex-row xl:flex-wrap gap-[55px]">
         <ProjectItem imgSrc={Web1Img} />
         <ProjectItem imgSrc={Web2Img} />
         <ProjectItem imgSrc={Web3Img} />
@@ -21,7 +21,7 @@ function Projects() {
         <ProjectItem imgSrc={Web7Img} />
         <ProjectItem imgSrc={Web8Img} />
       </div>
-      <button class="mx-auto block bg-dark text-white p-[12px_30px] text-[20px] rounded-[5px] mt-[30px] xl:mt-[65px]">
+      <button className="mx-auto block bg-dark text-white p-[12px_30px] text-[20px] rounded-[5px] mt-[30px] xl:mt-[65px]">
         Learn More
       </button>
     </>

@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <navbar class="hidden xl:flex gap-[30px] text-[20px] text-white">
+    <nav className="hidden xl:flex gap-[30px] text-[20px] text-white">
       <a href="#" target="_blank">
         Home
       </a>
@@ -13,7 +13,7 @@ function Navbar() {
       <a href="Contact.html" target="_blank">
         Contact
       </a>
-    </navbar>
+    </nav>
   );
 }
 

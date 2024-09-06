@@ -8,9 +8,9 @@ import YoutubeLogo from "../../assets/images/logo-youtube.svg";
 
 function Footer() {
   return (
-    <footer class="bg-green text-white">
-      <div class="xl:max-w-[1180px] xl:mx-auto xl:flex justify-between py-[30px] xl:py-[50px]">
-        <div class="flex gap-[20px] justify-center xl:justify-start">
+    <footer className="bg-green text-white">
+      <div className="xl:max-w-[1180px] xl:mx-auto xl:flex justify-between py-[30px] xl:py-[50px]">
+        <div className="flex gap-[20px] justify-center xl:justify-start">
           <img src={FacebookLogo} alt="logo-facebook" />
           <img src={InstagramLogo} alt="logo-instagram" />
           <img src={TwitterLogo} alt="logo-twitter" />
@@ -19,7 +19,7 @@ function Footer() {
           <img src={WhatsappLogo} alt="logo-whatsapp" />
           <img src={YoutubeLogo} alt="logo-youtube" />
         </div>
-        <div class="text-[20px] text-center mt-[20px] xl:mt-[0px]">
+        <div className="text-[20px] text-center mt-[20px] xl:mt-[0px]">
           © Start, 2022. All rights reserved.
         </div>
       </div>
